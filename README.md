@@ -21,12 +21,12 @@ Follow these simple steps to get started with the Mac address changer:
 cd mac-address-changer
 Change directory to the project folder:
 
-shell
+```shell
 Copy code
 cd mac-address-changer
 Run the script with a single-line command:
 
-shell
+```shell
 Copy code
 python mac_address_changer.py -i interface -m new_mac
 Replace interface with the name of your network interface (e.g., eth0, wlan0) and new_mac with the desired Mac address.
@@ -36,7 +36,7 @@ Enjoy your new Mac address!
 Usage
 Here's an example of how to use the Mac address changer:
 
-shell
+```shell
 Copy code
 python mac_address_changer.py -i wlan0 -m 00:11:22:33:44:55
 You can also use the -r flag to generate a random Mac address.
